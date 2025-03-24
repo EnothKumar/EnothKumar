@@ -1,0 +1,4 @@
+train : PATH
+val : PATH
+nc : 1
+classes : ['Boar']
