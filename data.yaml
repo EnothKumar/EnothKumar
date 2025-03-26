@@ -1,4 +1,13 @@
-train : PATH
-val : PATH
-nc : 1
-classes : ['Boar']
+names:
+- Wild Boar - v1 2022-06-27 5-46pm
+- undefined
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: custom-workflow-object-detection-26k6a
+  url: https://universe.roboflow.com/p0-d0ymf/custom-workflow-object-detection-26k6a/dataset/1
+  version: 1
+  workspace: p0-d0ymf
+test: ../test/images
+train: ../train/images
+val: ../valid/images
